@@ -1,0 +1,30 @@
+@use './styles/utils/variables.scss' as variables;
+
+@use './styles/utils/mixins.scss' as mixins;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+._container {
+  padding-inline: 16px;
+
+  @include mixins.on-tablet {
+    padding-inline: 24px;
+  }
+
+  @include mixins.on-desktop {
+    padding-inline: 32px;
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+}
+
+html {
+  font-family: variables.$font-family;
+  font-size: 10px;
+  color: variables.$primary;
+  background-color: variables.$bgColor;
+}
