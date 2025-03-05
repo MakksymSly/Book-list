@@ -24,7 +24,7 @@ echo "VITE_API_URL=http://localhost:3001/books" > .env
 
 In one terminal, run JSON Server on port 3001:
 ```bash
-json-server --watch db.json --port 3001
+npm run server
 ```
 Keep this terminal running.
 5. Start the Vite Development Server
