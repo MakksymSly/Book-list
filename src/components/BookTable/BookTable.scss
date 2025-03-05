@@ -1,0 +1,99 @@
+@use '../../styles/utils/mixins.scss' as mixins;
+@use '../../styles/utils/variables.scss' as variables;
+
+.book-table-wrapper {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.book-table {
+  width: 100%;
+  font-size: 1.2em;
+  background-color: variables.$primary;
+  color: variables.$secondary;
+  border-collapse: collapse;
+
+  &__header {
+    th {
+      padding: 4px 6px;
+      text-align: left;
+      border: 1px solid variables.$secondary;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__body {
+    td {
+      padding: 4px 6px;
+      border: 1px solid variables.$secondary;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+    }
+  }
+
+  &__row {
+    &.deactivated {
+      background-color: #f0f0f0;
+      color: #888;
+    }
+    border: 1px solid variables.$secondary;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    @include mixins.on-desktop {
+      flex-direction: column;
+      gap: 2px;
+    }
+  }
+
+  &__button {
+    padding: 2px 6px;
+    border: 1px solid variables.$secondary;
+    border-radius: variables.$global-border-radius;
+    background-color: variables.$primary;
+    color: variables.$secondary;
+    transition: background-color 0.2s;
+    &:hover {
+      background-color: #e0e0e0;
+    }
+    &:active {
+      box-shadow: 0 0 3px variables.$secondary;
+    }
+  }
+
+  &__button--toggle {
+    background-color: variables.$toggleButton;
+    &:hover {
+      background-color: variables.$toggleButtonHover;
+    }
+  }
+
+  &__button--edit {
+    background-color: variables.$editButton;
+    &:hover {
+      background-color: variables.$editButtonHover;
+    }
+  }
+
+  &__button--delete {
+    background-color: variables.$deleteButton;
+    &:hover {
+      background-color: variables.$deleteButtonHover;
+    }
+  }
+}

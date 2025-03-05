@@ -1,3 +1,5 @@
+import { BookForm } from '../components/BookForm/BookForm';
+
 export const BookFormPage = () => {
-  return <div>BookFormPage</div>;
+  return <BookForm />;
 };

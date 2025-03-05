@@ -1,0 +1,9 @@
+@use '../../styles/utils/variables.scss' as variables;
+.footer {
+  flex-shrink: 0;
+  padding: 15px;
+  background: variables.$primary;
+  color: variables.$secondary;
+  text-align: center;
+  font-size: 1.6em;
+}

@@ -2,23 +2,23 @@
   "books": [
     {
       "id": "1",
-      "title": "The Hobbit",
-      "author": "J. R. R. Tolkien",
-      "category": "Fantasy",
-      "isbn": "0-345-33968-1",
-      "created": "2022-08-01",
-      "modified": "2022-08-02",
-      "isActive": true
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Huita",
+      "isbn": "0-7432-7356-7",
+      "created": "2022-08-02T12:00:00.000Z",
+      "modified": "2025-03-05T13:03:12.287Z",
+      "isActive": false
     },
     {
       "id": "2",
-      "title": "1984",
+      "title": "Beavis and butthead",
       "author": "George Orwell",
       "category": "Dystopian",
       "isbn": "0-452-28423-6",
-      "created": "2022-08-03",
-      "modified": "2022-08-04",
-      "isActive": true
+      "created": "2022-08-03T12:00:00.000Z",
+      "modified": "2025-03-05T13:51:41.851Z",
+      "isActive": false
     },
     {
       "id": "3",
@@ -26,7 +26,8 @@
       "author": "Harper Lee",
       "category": "Fiction",
       "isbn": "0-06-112008-1",
-      "created": "2022-08-05",
+      "created": "2022-08-05T12:00:00.000Z",
+      "modified": "2025-03-04T20:58:34.133Z",
       "isActive": false
     },
     {
@@ -35,8 +36,8 @@
       "author": "Aldous Huxley",
       "category": "Science Fiction",
       "isbn": "0-06-085052-3",
-      "created": "2022-08-07",
-      "modified": "2022-08-08",
+      "created": "2022-08-07T12:00:00.000Z",
+      "modified": "2025-03-05T13:56:28.003Z",
       "isActive": true
     },
     {
@@ -45,17 +46,18 @@
       "author": "Herman Melville",
       "category": "Adventure",
       "isbn": "0-553-21311-3",
-      "created": "2022-08-09",
+      "created": "2022-08-09T12:00:00.000Z",
+      "modified": "2025-03-04T20:59:00.550Z",
       "isActive": false
     },
     {
       "id": "6",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "category": "Romance",
-      "isbn": "0-14-143951-3",
-      "created": "2022-08-11",
-      "modified": "2022-08-12",
+      "category": "non-fiction",
+      "isbn": "80210983120938",
+      "created": "2022-08-11T12:00:00.000Z",
+      "modified": "2025-03-05T13:26:36.574Z",
       "isActive": true
     },
     {
@@ -64,9 +66,9 @@
       "author": "J. D. Salinger",
       "category": "Fiction",
       "isbn": "0-316-76948-7",
-      "created": "2022-08-13",
-      "modified": "2022-08-14",
-      "isActive": true
+      "created": "2022-08-13T12:00:00.000Z",
+      "modified": "2025-03-04T20:59:00.130Z",
+      "isActive": false
     },
     {
       "id": "8",
@@ -74,8 +76,9 @@
       "author": "F. Scott Fitzgerald",
       "category": "Classic",
       "isbn": "0-7432-7356-7",
-      "created": "2022-08-15",
-      "isActive": false
+      "created": "2022-08-15T12:00:00.000Z",
+      "modified": "2025-03-04T21:28:48.230Z",
+      "isActive": true
     },
     {
       "id": "9",
@@ -83,8 +86,8 @@
       "author": "Leo Tolstoy",
       "category": "Historical Fiction",
       "isbn": "0-14-044793-8",
-      "created": "2022-08-17",
-      "modified": "2022-08-18",
+      "created": "2022-08-17T12:00:00.000Z",
+      "modified": "2025-03-04T21:28:49.647Z",
       "isActive": true
     },
     {
@@ -92,9 +95,39 @@
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "category": "Philosophical Fiction",
-      "isbn": "0-14-044913-2",
-      "created": "2022-08-19",
-      "isActive": true
+      "isbn": "0-14-044913-2ssdsd",
+      "created": "2022-08-19T12:00:00.000Z",
+      "modified": "2025-03-05T13:12:38.578Z",
+      "isActive": false
+    },
+    {
+      "id": "2985",
+      "title": "asldka;lsdksad",
+      "author": "alksjdlkasjdlkasjd",
+      "category": "laksdjlasjdlksadj",
+      "isbn": "123213123123",
+      "isActive": false,
+      "created": "2025-03-05T11:48:46.522Z",
+      "modified": "2025-03-05T14:00:56.375Z"
+    },
+    {
+      "id": "adcb",
+      "title": "sadasd",
+      "author": "asdasd",
+      "category": "Fiction",
+      "isbn": "0-14-044793-8",
+      "created": "2025-03-05T14:01:03.984Z",
+      "modified": "2025-03-05T14:01:03.984Z"
+    },
+    {
+      "id": "df4a",
+      "title": "asdsad",
+      "author": "sadsadsa",
+      "category": "Fiction",
+      "isbn": "0-14-044793-8",
+      "isActive": true,
+      "created": "2025-03-05T14:03:08.477Z",
+      "modified": "2025-03-05T14:03:08.477Z"
     }
   ]
 }
