@@ -3,8 +3,8 @@ import { useContext } from 'react';
 import { BooksContext } from '../../context/BooksContext';
 import { Ibook } from '../../types/Ibook';
 import { formatDate } from '../../utils/utils';
+import { useMediaQuery } from '../../hooks/useMediaQuery';
 import { BookCard } from '../BookCard/BookCard';
-import { useMediaQuery } from 'react-responsive';
 import { useNavigate } from 'react-router-dom';
 
 interface Props {
@@ -14,7 +14,7 @@ interface Props {
 export const BookTable: React.FC<Props> = ({ books }) => {
   const row = ['Title', 'Author', 'Category', 'ISBN', 'Created', 'Modified', 'Actions'];
   const booksContext = useContext(BooksContext);
-  const isTablet = useMediaQuery({ query: '(min-width: 600px)' });
+  const isTablet = useMediaQuery('(min-width: 700px)');
 
   const { toggleStatus, removeBook } = booksContext!;
 
